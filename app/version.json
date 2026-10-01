@@ -1,10 +1,10 @@
 {
-  "version": "1.38.1",
+  "version": "1.53.0",
   "htmlUrl": "https://raw.githubusercontent.com/CarmineAbbagnale/rollone-desktop/main/rollone.html",
-  "sha256": "028fd8020522ae41471e88d7e13df9f87e2d9d201c7308b4ded54e44864087dc",
+  "sha256": "67c34bba93f97941e28f620d96bdb83b83430595af5394ba4c83d32b72906b4f",
   "apk": {
     "minVersionName": "1.12.3",
     "downloadUrl": "https://carmineabbagnale.github.io/rollone-site/la-mia-app/#download",
-    "notice": "Corretto bug: Griglia tattica e Tavolo bloccati su disattivato per chi li aveva spenti in passato, senza modo di riattivarli. Ora attivabili/disattivabili di nuovo da Impostazioni."
+    "notice": "Rifinitura grafica: feedback a pressione sui pulsanti, sollevamento delle card al passaggio del mouse, bagliore sui badge Homebrew, festeggiamento animato al level-up."
   }
 }
