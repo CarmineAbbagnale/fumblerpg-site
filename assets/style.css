@@ -1,16 +1,20 @@
-/* Fumble RPG — foglio di stile condiviso */
-
+/* Fumble RPG — foglio di stile condiviso
+   Palette "Diablo IV" (v1.64.0 lato app, estesa qui al sito su richiesta esplicita di
+   Carmine il 6/10/2026: "estendi il tema diablo4 a tutta l'app al sito ecc..."): nero
+   quasi assoluto, bagliore rosso sangue drammatico, bronzo e osso al posto dell'oro
+   caldo della identità precedente. Solo i token colore sono cambiati, zero regole
+   strutturali toccate, stessa logica già usata per il restyling dell'app. */
 :root {
-  --bg: #14100b;
-  --bg-elev: #1d1610;
-  --bg-elev2: #241b13;
-  --border: #382a1a;
-  --text: #f1e7d4;
-  --muted: #b9a480;
-  --accent: #e0a83c;
-  --accent2: #c9722d;
-  --accent-text: #241503;
-  --focus: #f2c568;
+  --bg: #070504;
+  --bg-elev: #0c0807;
+  --bg-elev2: #120e08;
+  --border: #3a1414;
+  --text: #e9dcc2;
+  --muted: #8f7a62;
+  --accent: #c23b2a;
+  --accent2: #8a6638;
+  --accent-text: #2a0f0a;
+  --focus: #ff5a3c;
   --radius: 14px;
   --max: 1080px;
   --font-display: "Cinzel", Georgia, "Times New Roman", serif;
@@ -23,7 +27,7 @@ html { scroll-behavior: smooth; }
 
 body {
   margin: 0;
-  background: radial-gradient(1200px 600px at 50% -10%, #23180d 0%, var(--bg) 55%);
+  background: radial-gradient(1200px 600px at 50% -10%, #2a0906 0%, var(--bg) 55%);
   color: var(--text);
   font-family: var(--font-body);
   line-height: 1.6;
@@ -122,7 +126,7 @@ nav.primary a[aria-current="page"] { color: var(--accent); }
 .hero h1 {
   font-family: var(--font-display); font-size: clamp(2.1rem, 5vw, 3.4rem);
   margin: 0 0 20px; text-wrap: balance; line-height: 1.15;
-  background: linear-gradient(180deg, #fbe7bd, var(--accent));
+  background: linear-gradient(180deg, #ecdcc0, var(--accent));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .hero p.lead {
@@ -145,7 +149,7 @@ nav.primary a[aria-current="page"] { color: var(--accent); }
 .hero-split h1 {
   font-family: var(--font-display); font-size: clamp(2rem, 4.2vw, 3.1rem);
   margin: 0 0 18px; text-wrap: balance; line-height: 1.14;
-  background: linear-gradient(180deg, #fbe7bd, var(--accent));
+  background: linear-gradient(180deg, #ecdcc0, var(--accent));
   -webkit-background-clip: text; background-clip: text; color: transparent;
 }
 .hero-split p.lead { color: var(--muted); font-size: 1.08rem; margin: 0 0 28px; }
@@ -230,11 +234,11 @@ nav.primary a[aria-current="page"] { color: var(--accent); }
 section { padding: 56px 0; }
 section.alt { background: var(--bg-elev); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 section.band {
-  background: linear-gradient(180deg, var(--accent2), #8a4f1f);
-  color: #2a1607;
+  background: linear-gradient(180deg, var(--accent2), #5c4323);
+  color: #1c1008;
 }
-section.band h2 { color: #2a1607; -webkit-text-fill-color: #2a1607; }
-section.band p { color: #3d220c; }
+section.band h2 { color: #1c1008; -webkit-text-fill-color: #1c1008; }
+section.band p { color: #2e1c0e; }
 
 h2.section-title {
   font-family: var(--font-display); font-size: clamp(1.6rem, 3.4vw, 2.2rem);
@@ -243,7 +247,7 @@ h2.section-title {
 p.section-sub {
   text-align: center; color: var(--muted); max-width: 620px; margin: 0 auto 40px;
 }
-section.band p.section-sub { color: #3d220c; }
+section.band p.section-sub { color: #2e1c0e; }
 
 .grid {
   display: grid; gap: 20px;
