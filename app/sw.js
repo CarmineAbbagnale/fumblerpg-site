@@ -1,4 +1,4 @@
-// Service worker di RollOne (versione web installabile). Strategia "rete prima, cache come
+// Service worker di Fumble RPG (versione web installabile). Strategia "rete prima, cache come
 // riserva": quando c'è connessione l'app è sempre quella pubblicata più di recente (esattamente
 // come una pagina web normale, "il rilascio classico" richiesto), quando manca la connessione si
 // serve l'ultima copia salvata, cosi' l'app resta utilizzabile anche offline dopo la prima visita.
