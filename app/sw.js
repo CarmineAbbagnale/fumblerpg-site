@@ -1,10 +1,10 @@
-// Service worker di Fumble RPG (versione web installabile). Strategia "rete prima, cache come
+// Service worker di Mythrender (versione web installabile). Strategia "rete prima, cache come
 // riserva": quando c'è connessione l'app è sempre quella pubblicata più di recente (esattamente
 // come una pagina web normale, "il rilascio classico" richiesto), quando manca la connessione si
 // serve l'ultima copia salvata, cosi' l'app resta utilizzabile anche offline dopo la prima visita.
 // Il nome della cache include un numero di versione: cambiarlo alla prossima modifica sostanziale
 // di questo file forza tutti i client a ripulire la cache vecchia (vedi "activate" sotto).
-const CACHE_NAME = 'rollone-shell-v1';
+const CACHE_NAME = 'mythrender-shell-v2';
 const APP_SHELL = ['./', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (event) => {
