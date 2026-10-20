@@ -1,10 +1,10 @@
 {
-  "version": "1.79.1",
+  "version": "1.80.1",
   "htmlUrl": "https://raw.githubusercontent.com/CarmineAbbagnale/rollone-desktop/main/rollone.html",
-  "sha256": "00a5919b3490d9ad7e8803e09a5296c39878d6f295e601a36529f47c76b7892c",
+  "sha256": "d948ecf77b55a6eabca655f378e477ef001368696b938d45b2cb4e3e8971cf80",
   "apk": {
     "minVersionName": "1.12.3",
     "downloadUrl": "https://carmineabbagnale.github.io/fumblerpg-site/la-mia-app/#download",
-    "notice": "Corretto il dado della RPG Companion: non si sovrappone più con l'overlay 3D, che ora resta visibile col risultato finché non lo chiudi tu."
+    "notice": "Sostituita l'icona dell'app con il nuovo logo di Mythrender (drago e d20). Solo l'immagine e' cambiata, nessun dato perso."
   }
 }
